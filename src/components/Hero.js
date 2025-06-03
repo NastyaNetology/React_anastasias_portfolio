@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import profilePic from 'C:/Users/kalac/anastasias_portfolio/src/Anastasia.jpg'
+import profilePic from '../Anastasia.jpg';
 
 export default function Hero() {
   return (

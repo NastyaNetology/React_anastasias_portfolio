@@ -1,6 +1,6 @@
 // src/components/About.js
 import React from 'react';
-import profilePic from 'C:/Users/kalac/anastasias_portfolio/src/Anastasia.jpg'
+import profilePic from '../Anastasia.jpg';
 
 
 export default function About() {

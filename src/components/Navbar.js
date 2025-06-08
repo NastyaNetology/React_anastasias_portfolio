@@ -1,21 +1,21 @@
 // src/components/Navbar.js
 import React from 'react';
-import { AppBar, Toolbar, Typography, Box, Link as MuiLink } from '@mui/material';
+import { AppBar, Toolbar, Box, Link as MuiLink } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <AppBar position="sticky" color="inherit" elevation={0}>
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
-        {/* Left: FIO */}
+        {/* Left: Logo */}
         <MuiLink
           component={Link}
           to="/"
           underline="none"
           color="inherit"
-          sx={{ fontWeight: 'bold', fontSize: '1.25rem' }}
+          sx={{ display: 'flex', alignItems: 'center' }}
         >
-          Anastasia Kalacheva
+          <img src="/logo192.png" alt="Logo" style={{ height: '40px' }} />
         </MuiLink>
 
         {/* Right: Navigation links */}
@@ -37,5 +37,4 @@ export default function Navbar() {
     </AppBar>
   );
 }
-
 

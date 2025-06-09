@@ -15,26 +15,28 @@ export default function About() {
           {/* Left: Bio */}
             <div>
                 <h2 className="text-xl font-semibold text-gray-900 mb-4">
-                    I'm a Business Analyst with hands-on experience in software engineering and machine learning
+                    I'm a Business Analyst with a deep love for technology.
                 </h2>
                 <p className="text-gray-700 mb-4">
-                    I built this site myself using React. I'm driven by curiosity and a strong desire to learn and grow.
-                    Whenever I take on a task, I like to break it down into small, understandable parts so I can fully
-                    grasp how everything works — both on the surface and under the hood
+                    With over six years of experience in IT, I've developed strong analytical thinking and a
+                    problem-solving mindset. I specialize in analyzing business processes, data, and systems — always
+                    looking at things from both a technical and strategic perspective. I'm driven by a desire to learn,
+                    improve efficiency, and build smart, human-centered solutions.
                 </p>
-                <p className="text-gray-700 mb-6">
-                    I'm looking to join a project and a team that shares my mindset — using technology to push the
-                    boundaries of what's possible and create meaningful impact for the future.
-                    I also enjoy writing about Business Analysis, mentoring others, and building connections through
-                    networking.
+                <p className="text-gray-700 mb-4">
+                    That passion led me to earn a degree in Software Engineering in Germany, where I deepened my knowledge of system design and machine learning. I built this site myself using React, simply because I love getting hands-on with code and understanding how things work — from the inside out. I'm especially excited about the potential of AI and automation to shape the future of work.
                 </p>
-                <a
-                    href="/Business Analyst_A Kalacheva_CV.pdf"
-                    download
-                    className="inline-block bg-black text-white py-2 px-4 rounded-full text-sm hover:bg-gray-800 transition"
-                >
-                    Download CV
-                </a>
+
+                    <p className="text-gray-700 mb-6">
+                    Right now, I’m looking for a team that shares this mindset — curious, thoughtful, and ambitious about using technology to create meaningful change. I also enjoy writing about business analysis, mentoring others, and connecting with people who love solving complex problems and building things that matter.
+                    </p>
+                    <a
+                        href="/Business Analyst_A Kalacheva_CV.pdf"
+                        download
+                        className="inline-block bg-black text-white py-2 px-4 rounded-full text-sm hover:bg-gray-800 transition"
+                    >
+                        Download CV
+                    </a>
             </div>
 
             <div>

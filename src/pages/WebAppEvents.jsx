@@ -20,7 +20,7 @@ const ProjectOverview = () => {
       <Tabs defaultValue="overview">
         <TabsList>
           <TabsTrigger value="overview">Overview</TabsTrigger>
-  <TabsTrigger value="User Stories">User Stories</TabsTrigger>
+          <TabsTrigger value="User Stories">User Stories</TabsTrigger>
           <TabsTrigger value="data">Data & Metrics</TabsTrigger>
           <TabsTrigger value="diagram">Activity Diagram</TabsTrigger>
         </TabsList>

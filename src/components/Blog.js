@@ -7,7 +7,7 @@ export default function Blog() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Talks, posts & project reflections
+            Articles & Posts
           </h1>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
             I’m passionate about business analysis, problem-solving, and building products that make an impact. In this section, I share ideas, tools, and lessons learned from real projects.

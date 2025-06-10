@@ -1,17 +1,17 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import About from './components/About';
-import BlogPost from './pages/BlogPost'; // or wherever you placed it
+import BlogPost from './pages/BlogPost';
 import ProjectForecast from './pages/ProjectForecast';
 import WebAppEvents from './pages/WebAppEvents';
-
-
+import Currency from './pages/Currency';
 
 export default function App() {
   return (
@@ -26,6 +26,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects/forecast" element={<ProjectForecast />} />
         <Route path="/projects/web-app-events" element={<WebAppEvents />} />
+        <Route path="/projects/currency" element={<Currency />} />
       </Routes>
     </Router>
   );
